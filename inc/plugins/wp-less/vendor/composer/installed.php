@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '8c06253710526e6fbb1c1bdff2b7cce554f30696',
+    'reference' => 'be7aabb3a381f2d4007969e34039957157822e73',
     'name' => 'oncletom/wp-less',
   ),
   'versions' => 
@@ -27,7 +27,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '8c06253710526e6fbb1c1bdff2b7cce554f30696',
+      'reference' => 'be7aabb3a381f2d4007969e34039957157822e73',
     ),
     'oyejorge/less.php' => 
     array (
