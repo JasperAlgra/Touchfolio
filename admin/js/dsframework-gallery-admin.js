@@ -19,7 +19,7 @@ var dsframework_global_vars = {};
 				});
 			}
 
-			$('body').on('click', 'add_gallery_items_button', function(e) {
+			$('body').on('click', '.add_gallery_items_button', function(e) {
 				self.window.dsframework_global_vars.gallery_editor =  {
 					element: 		$(this),
 					imagesContainer: self.insertContainer,
