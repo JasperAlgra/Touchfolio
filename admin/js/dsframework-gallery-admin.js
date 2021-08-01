@@ -19,7 +19,7 @@ var dsframework_global_vars = {};
 				});
 			}
 
-			$('.add_gallery_items_button').on('click', 'a', function(e) {
+			$('body').on('click', 'add_gallery_items_button', function(e) {
 				self.window.dsframework_global_vars.gallery_editor =  {
 					element: 		$(this),
 					imagesContainer: self.insertContainer,
@@ -29,7 +29,7 @@ var dsframework_global_vars = {};
 				return false;
 			});
 
-			$(".dsframework-remove-gallery-item").on('click', 'a', function(e){
+			$("body").on('click', '.dsframework-remove-gallery-item', function(e){
 				e.preventDefault();
 				e.stopImmediatePropagation();
 				var parent = $(this).parent();
