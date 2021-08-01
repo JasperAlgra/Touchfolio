@@ -19,7 +19,7 @@ var dsframework_global_vars = {};
 				});
 			}
 
-			$('.add_gallery_items_button').live('click', function(e) {
+			$('.add_gallery_items_button').on('click', 'add_gallery_items_button', function(e) {
 				self.window.dsframework_global_vars.gallery_editor =  {
 					element: 		$(this),
 					imagesContainer: self.insertContainer,
@@ -29,7 +29,7 @@ var dsframework_global_vars = {};
 				return false;
 			});
 
-			$(".dsframework-remove-gallery-item").live('click', function(e){
+			$(".dsframework-remove-gallery-item").on('click', '.dsframework-remove-gallery-item', function(e){
 				e.preventDefault();
 				e.stopImmediatePropagation();
 				var parent = $(this).parent();
@@ -37,7 +37,7 @@ var dsframework_global_vars = {};
 				
 			});
 
-			$(".sortable-admin-gallery li").live('click', function() {
+			$(".sortable-admin-gallery").on('click', 'li', function() {
 				  $.magnificPopup.open({
 				  	items: {
 				  		type: 'inline',
@@ -70,9 +70,9 @@ var dsframework_global_vars = {};
 			self._addInsertImageButtons();
 			self._makeFilterableMedia();
 
-			$(".media-item").live('mouseenter', function(e) {
+			$(".media-item").on('mouseenter',".media-item", function(e) {
 				self._addInsertImageButtons();
-			}).live('click',function(e) {
+			}).on('click',".media-item",function(e) {
 				var item = $(this);
 				e.preventDefault();
 				self.request_image(item.find('.dsframework-thickbox-add-image-button'));
