@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'be7aabb3a381f2d4007969e34039957157822e73',
+    'reference' => '6f1fd20c67703b4c30cd11456fb3680ec3b812a6',
     'name' => 'oncletom/wp-less',
   ),
   'versions' => 
@@ -40,7 +40,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'be7aabb3a381f2d4007969e34039957157822e73',
+      'reference' => '6f1fd20c67703b4c30cd11456fb3680ec3b812a6',
     ),
     'oyejorge/less.php' => 
     array (
